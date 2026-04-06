@@ -6,17 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		5183AB212EF63E9400ACA5A2 /* SSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		5151003C2F4251D200369960 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5151003B2F4251D200369960 /* OnboardingView.swift */; };
+		5151003E2F42525700369960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5151003D2F42525700369960 /* ContentView.swift */; };
+		5183AB3C2EF63F3E00ACA5A2 /* SSCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183AB382EF63F3E00ACA5A2 /* SSCApp.swift */; };
+		5183AB3D2EF63F3E00ACA5A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5183AB342EF63F3E00ACA5A2 /* Assets.xcassets */; };
+		5183AB4A2EFAD03E00ACA5A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183AB492EFAD03E00ACA5A2 /* HomeView.swift */; };
+		5183AB4E2EFAD12B00ACA5A2 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183AB4D2EFAD12B00ACA5A2 /* CameraPreview.swift */; };
+		5183AB512EFAD29600ACA5A2 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183AB502EFAD29600ACA5A2 /* Camera.swift */; };
+		5183AB532EFAD4C300ACA5A2 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183AB522EFAD4C300ACA5A2 /* CameraView.swift */; };
+		5183ABD52EFB50E700ACA5A2 /* TextRecognization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183ABD42EFB50E700ACA5A2 /* TextRecognization.swift */; };
+		5183ABD72EFB678400ACA5A2 /* IngredientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183ABD62EFB677100ACA5A2 /* IngredientsListView.swift */; };
+		51D8BE2F2F00215F00A36317 /* IngredientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D8BE2E2F00215F00A36317 /* IngredientsViewModel.swift */; };
+		51D8BE372F0189CE00A36317 /* IngredientsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D8BE362F0189CE00A36317 /* IngredientsModel.swift */; };
+		51D8BE672F04A78C00A36317 /* ScanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D8BE662F04A78C00A36317 /* ScanModel.swift */; };
+		51F5AE7B2F0ABA59006DDA2E /* FoundationModelsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F5AE7A2F0ABA59006DDA2E /* FoundationModelsManager.swift */; };
+		51F5AE7F2F0C9684006DDA2E /* IngredientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F5AE7E2F0C9684006DDA2E /* IngredientDetailView.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5183AB232EF63E9400ACA5A2 /* SSC */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SSC;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		5151003B2F4251D200369960 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		5151003D2F42525700369960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5183AB212EF63E9400ACA5A2 /* SSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5183AB342EF63F3E00ACA5A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5183AB382EF63F3E00ACA5A2 /* SSCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSCApp.swift; sourceTree = "<group>"; };
+		5183AB492EFAD03E00ACA5A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5183AB4D2EFAD12B00ACA5A2 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		5183AB502EFAD29600ACA5A2 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		5183AB522EFAD4C300ACA5A2 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		5183ABD42EFB50E700ACA5A2 /* TextRecognization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognization.swift; sourceTree = "<group>"; };
+		5183ABD62EFB677100ACA5A2 /* IngredientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsListView.swift; sourceTree = "<group>"; };
+		51D8BE2E2F00215F00A36317 /* IngredientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewModel.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		51D8BE362F0189CE00A36317 /* IngredientsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsModel.swift; sourceTree = "<group>"; };
+		51D8BE662F04A78C00A36317 /* ScanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanModel.swift; sourceTree = "<group>"; };
+		51F5AE7A2F0ABA59006DDA2E /* FoundationModelsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationModelsManager.swift; sourceTree = "<group>"; };
+		51F5AE7E2F0C9684006DDA2E /* IngredientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5183AB1E2EF63E9400ACA5A2 /* Frameworks */ = {
@@ -32,7 +57,7 @@
 		5183AB182EF63E9400ACA5A2 = {
 			isa = PBXGroup;
 			children = (
-				5183AB232EF63E9400ACA5A2 /* SSC */,
+				5183AB392EF63F3E00ACA5A2 /* SSC */,
 				5183AB222EF63E9400ACA5A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +68,76 @@
 				5183AB212EF63E9400ACA5A2 /* SSC.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5183AB392EF63F3E00ACA5A2 /* SSC */ = {
+			isa = PBXGroup;
+			children = (
+				5183AB382EF63F3E00ACA5A2 /* SSCApp.swift */,
+				5183AB342EF63F3E00ACA5A2 /* Assets.xcassets */,
+				518E44862F1B15A100C0E08B /* Model */,
+				5183AB4B2EFAD11200ACA5A2 /* Camera */,
+				5183AB452EFACDF500ACA5A2 /* View */,
+				518E44872F1B160000C0E08B /* ViewModel */,
+			);
+			path = SSC;
+			sourceTree = "<group>";
+		};
+		5183AB452EFACDF500ACA5A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5151003D2F42525700369960 /* ContentView.swift */,
+				5151003B2F4251D200369960 /* OnboardingView.swift */,
+				5183AB492EFAD03E00ACA5A2 /* HomeView.swift */,
+				5183AB522EFAD4C300ACA5A2 /* CameraView.swift */,
+				5183ABD62EFB677100ACA5A2 /* IngredientsListView.swift */,
+				51F5AE7E2F0C9684006DDA2E /* IngredientDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5183AB4B2EFAD11200ACA5A2 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				5183AB4D2EFAD12B00ACA5A2 /* CameraPreview.swift */,
+				5183AB502EFAD29600ACA5A2 /* Camera.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		518E44862F1B15A100C0E08B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51D8BE662F04A78C00A36317 /* ScanModel.swift */,
+				51D8BE362F0189CE00A36317 /* IngredientsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		518E44872F1B160000C0E08B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				51D8BE2E2F00215F00A36317 /* IngredientsViewModel.swift */,
+				518E44892F1B16AE00C0E08B /* FoundationModels */,
+				518E44882F1B16A800C0E08B /* Vision */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		518E44882F1B16A800C0E08B /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				5183ABD42EFB50E700ACA5A2 /* TextRecognization.swift */,
+			);
+			path = Vision;
+			sourceTree = "<group>";
+		};
+		518E44892F1B16AE00C0E08B /* FoundationModels */ = {
+			isa = PBXGroup;
+			children = (
+				51F5AE7A2F0ABA59006DDA2E /* FoundationModelsManager.swift */,
+			);
+			path = FoundationModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,9 +155,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				5183AB232EF63E9400ACA5A2 /* SSC */,
-			);
 			name = SSC;
 			packageProductDependencies = (
 			);
@@ -78,7 +170,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
-				LastUpgradeCheck = 2600;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					5183AB202EF63E9400ACA5A2 = {
 						CreatedOnToolsVersion = 26.0;
@@ -109,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5183AB3D2EF63F3E00ACA5A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +212,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5183ABD72EFB678400ACA5A2 /* IngredientsListView.swift in Sources */,
+				51D8BE672F04A78C00A36317 /* ScanModel.swift in Sources */,
+				5183AB4E2EFAD12B00ACA5A2 /* CameraPreview.swift in Sources */,
+				5183ABD52EFB50E700ACA5A2 /* TextRecognization.swift in Sources */,
+				5183AB532EFAD4C300ACA5A2 /* CameraView.swift in Sources */,
+				5151003E2F42525700369960 /* ContentView.swift in Sources */,
+				51F5AE7B2F0ABA59006DDA2E /* FoundationModelsManager.swift in Sources */,
+				51D8BE372F0189CE00A36317 /* IngredientsModel.swift in Sources */,
+				5151003C2F4251D200369960 /* OnboardingView.swift in Sources */,
+				5183AB512EFAD29600ACA5A2 /* Camera.swift in Sources */,
+				51F5AE7F2F0C9684006DDA2E /* IngredientDetailView.swift in Sources */,
+				5183AB4A2EFAD03E00ACA5A2 /* HomeView.swift in Sources */,
+				5183AB3C2EF63F3E00ACA5A2 /* SSCApp.swift in Sources */,
+				51D8BE2F2F00215F00A36317 /* IngredientsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +291,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -241,6 +349,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -256,6 +365,7 @@
 				DEVELOPMENT_TEAM = ARY55MH724;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs access to your camera to scan for ingredients.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +398,7 @@
 				DEVELOPMENT_TEAM = ARY55MH724;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs access to your camera to scan for ingredients.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

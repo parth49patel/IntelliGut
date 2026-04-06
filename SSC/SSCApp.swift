@@ -10,10 +10,9 @@ import SwiftData
 
 @main
 struct SSCApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
+   
+	var sharedModelContainer: ModelContainer = {
+		let schema = Schema([ScanModel.self, IngredientsModel.self])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
         do {
@@ -23,10 +22,13 @@ struct SSCApp: App {
         }
     }()
 
+	@State private var fmManager = FoundationModelsManager()
+	
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
         .modelContainer(sharedModelContainer)
+		.environment(fmManager)
     }
 }
